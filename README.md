@@ -1,71 +1,76 @@
-# Dibujar sketch de dashboard
+# Draw a dashboard sketch
 
 * **Track:** _Common Core_
-* **Curso:** _Creando un sitio web interactivo con JavaScript_
-* **Unidad:** _Intro a User Experience Design_
+* **Course:** _Creating an interactive website with JavaScript_
+* **Unid:** _Intro to User Experience Design_
 
-## Objetivo
+## Objective
 ---
-El reto consiste en dibujar el sketch de un dashboard de Laboratoria al tener en cuenta lo siguiente:
 
-El dashboard es una herramienta utilizada por profesores, training managers, directores y gerentes de Laboratoria para ver rápidamente qué está pasando en el salón de clases de Laboratoria. En el dashboard, los usuarios mencionados pueden ver rápidamente estadísticas y datos en tiempo real como:
+To draw an sketch for a dashboard for Laboratoria while considering the following: 
 
-1. Número de alumnas inscritas
-2. Número de alumnas que desertaron
-3. Número y porcentaje de alumnas que pasan el criterio mínimo de evaluación
-4. Promedio de notas por sprint
-5. Promedio de notas HSE
-6. Promedio de notas técnicas
+The dashboard is a tool used by teachers, training managers, directors and managers of Labotaria to quickly see what's happening in the classroom. In the dashboard, these users can access quickly in real time to stadistics and data such as:
 
-Además, dado que Laboratoria tiene muchas generaciones, regularmente 2 generaciones por año (estas generaciones empezaron en el 2014), y que opera en 4 sedes (Arequipa, Ciudad de México, Lima y Santiago de Chile), es posible que los usuarios quieran ver datos de sedes / generaciones anteriores para poder hacer comparaciones.
+1. Number of registered students
+2. Number of deserted students
+3. Number and percentage of students who pass the minimum evaluation grade
+4. Average grade per Sprint
+5. Average Soft Skills grade
+6. Average Technical Skills grade
 
-### Dashboard propuesto
+Moreover, Laboratoria has several graduates generations, normally having 2 generations each year starting from 2014 and operating in 4 sites (Arequipa, Mexico City, Lima, Santiago de Chile). User may want to access data of sites and previous generations to make comparisons. 
+
+### Dashboard
 #### Dashboard N° 1
 ![Sin titulo](docs/dashboard-lab1.jpg)
-En esta primera parte del dashboard, se encuentra lo siguiente:
-1. Un menú desplegable a la izquierda, señalizado con un símbolo de menor, el cual contiene lo siguiente:
-    1. Imagen del usuario.
-    2. Notificación en la parte superior derecha de la imagen del usuario, la cual se diferencia con un color rojo de fondo.
-    3. Despliegue de sedes por países y ciudades, los que se subdividen en años de promociones de manera descendente y que marcan un checkbox ovalado con fondo rojo.
-    4. Una barra de íconos que comprende la configuración del usuario, acceso a todas las notificaciones y cerrar sesión.
-2. Un título situado en el centro: "Dashboard de Laboratoria".
-3. Una indicación de la sede y el año que se visita.
-4. Una gráfica de la información de las estudiantes y las notas correspondientes a lo anterior, como se explica a continuación:
-    1. En la primera parte, se ve la información de las estudiantes:
-        1.  A la izquierda, se ve el número total de inscritas con fuente negra, el número de desertoras con fuente roja y estudiantes que continúan con fuente azul.
-        2. A la derecha, se ve el número y porcentaje de aprobadas con fuente verde y el número y porcentaje de desaprobadas con fuente morada.
-    2. En la segunda parte, se ve la información de las notas:
-        1. El primer gráfico de fondo amarillo indica el porcentaje máximo y promedio, con fuente negra y naranja respectivamente, correspondientes a HSE.
-        2. El segundo gráfico de fondo amarillo indica el porcentaje máximo y promedio, con fuente negra y naranja respectivamente, correspondientes al área técnica.
-        3. El tercer gráfico de fondo amarillo indica el porcentaje máximo y promedio, con fuente negra y naranja respectivamente, correspondientes al sprint.
+
+In this first part of the dashboard, we can see the following:  
+
+1. A foldable menu on the left with a arrow, containing:
+    1. User avatar.
+    2. Notifications in the upper side of the user avatar, highlighted with a red background.
+    3. Collapsing menu with sites per countries and cities, which are then divided by descending generations taht have a checkbox that turns red when selected.
+    4. Icons section at the bottom giving access to user configurations, notifications and log out.
+2. Main title in the middle of the page stating: "Dashboard de Laboratoria" (Laboratoria Dashboard).
+3. Indication of the site and year displayed.
+4. Stadistics on students information and grades, as follows:
+    1. In the first part, we can see the students information:
+        1. On the left, we can see the total registered students with black font, the total number of deserted students with red font and the remaining students with blue font.
+        2. On the right, we can see the number and percentage of graduating students with green font and the number and percentage of failing students with purple font.
+    2. In the second part, we can see the drages information:
+        1. The first yellow bar shows the maximum and average percentages (with black and orange fonts, respectively) for Soft Skills grade.
+        2. The second yellow bar shows the maximum and average percentages (with black and orange fonts, respectively) for Tech Skills grade.
+        3. The third yellow bar shows the maximum and average percentages (with black and orange fonts, respectively) for the Sprint.
+
 
 
 #### Dashboard N° 2
 ![Sin titulo](docs/dashboard-lab2.jpg)
-En la segunda parte del dashboard, se encuentra lo siguiente:
-1. Un menú desplegable a la izquierda, señalizado con un símbolo de mayor, el cual contiene lo siguiente:
-    1. Imagen del usuario.
-    2. Notificación en la parte superior derecha de la imagen del usuario, la cual se diferencia con un color rojo de fondo.
-    3. Despliegue de sedes por países.
-    4. Una barra de íconos que comprende la configuración del usuario, acceso a las notificaciones y cerrar sesión.
-2. Un título situado en el centro: "Dashboard de Laboratoria".
-3. Cuatro áreas de selección de opciones, como se explica a continuación:
-    1. La primera presenta un despliegue de las sedes, subdividida en países y ciudades.
-    2. La segunda presenta un despliegue de los años de las promociones.
-    3. La tercera presenta un despliegue de las estudiantes, donde se observa el número de inscritas, número de desertoras, número de estudiantes que contiaron y el número y porcentaje de aprobadas y desaprobadas.
-    4. La cuarta presenta un despliegue de las notas, donde se observa las categorías de HSE, técnico y sprint.
-4. Una gráfica comparativa del número y porcentaje de aprobadas y desaprobadas de los años 2016-1 y 2016-2 entre Lima y Santiago de Chile en la categoría de sprint. En esta gráfica, se asigna el color de verde para las aprobadas y morado para las desaprobadas, lo cual se representa en la parte inferior de la gráfica a modo de leyenda.
+In this second part of the dashboard, we can see the following:  
+1. A foldable menu on the left with a arrow, containing:
+    1. User avatar.
+    2. Notifications in the upper side of the user avatar, highlighted with a red background.
+    3. Collapsing menu with sites per countries and cities, which are then divided by descending generations taht have a checkbox that turns red when selected.
+    4. Icons section at the bottom giving access to user configurations, notifications and log out.
+2. Main title in the middle of the page stating: "Dashboard de Laboratoria" (Laboratoria Dashboard).
+3. A section with four options areas, expalined as follows:
+    1. The first area shows a collapsing options section for sites, divided in countries and cities.
+    2. The second area shows a collapsing options section for alumni generations years.
+    3. The third area shows a collapsing options section for about students: number of registered students, deserted students, graduating students, and the number and percentage        of graduating and failing students. 
+    4. The fourth area shows a collapsing option section for grades, according to Soft Skills grades, Technical Skills and Sprint.
+4. A section with a stadictic portraying the comparison of the number and percentage of graduating and failing students for the years 2016-1 and 2016-2 from Lima and Santiago de Chile per Sprint grades. In this graphic, we can find a legend stating that graduating students are shown in green and failing students are shown in purple. 
 
-## Contenido
 
-Este proyecto contiene:
+## Content
 
-1. Un archivo  **`README.md`** que explica el contenido del repositorio.
+This project has:
 
-2. Una carpeta `docs` donde se encuentran las imágenes que representan el dashboard de Laboratoria en formato **jpg**.
+1. One **`README.md`** file explaining the repository content.
 
-## Autora
-Lizbeth Félix Peña
+2. One `docs` folder for Dashboard images in **jpg** format.
 
-## Fecha
+## Author
+Lizbeth Felix Pena
+
+## Date
 25/11/2017
