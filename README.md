@@ -60,8 +60,12 @@ In this second part of the dashboard, we can see the following:
     4. The fourth area shows a collapsing option section for grades, according to Soft Skills grades, Technical Skills and Sprint.
 4. A section with a stadictic portraying the comparison of the number and percentage of graduating and failing students for the years 2016-1 and 2016-2 from Lima and Santiago de Chile per Sprint grades. In this graphic, we can find a legend stating that graduating students are shown in green and failing students are shown in purple. 
 
+## Outcome
 
-## Content
+This Sketch was used for testing with Institute's teachers and training managers. The outcome was that the users stated that the information was clear and graphics with colours helped to identify quickly students' information. They also didn't have any problems for navigating through the site, which shows the usability of the prototype.
+
+
+## Project Content
 
 This project has:
 
